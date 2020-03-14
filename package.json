@@ -1,0 +1,15 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-db" : "cd dbserver && mongod --dbpath ./ --port 3003",
+    "server" : "cd server && npm start",
+    "client" : "cd client && npm start"
+    
+  },
+  "author": "",
+  "license": "ISC"
+}
